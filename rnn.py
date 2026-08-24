@@ -67,7 +67,7 @@ def train_model():
             chord_to_idx = pickle['chord_to_idx']
 
         input_dim = pickle["train"][0].shape[1]
-        print 'Finished loading data, input dim: {}'.format(input_dim)
+        print('Finished loading data, input dim: {}'.format(input_dim))
     else:
         raise Exception("Other datasets not yet implemented")
 
